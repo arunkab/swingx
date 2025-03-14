@@ -4,11 +4,11 @@
     <title>SwingX - Share Trading with Confidence</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #001f3f, #1a237e, #5c6bc0, #9fa8da); /* Gradient background */
-            color: white;
+            background-color: #f0f4f8; /* Light gray background */
+            color: #333;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -18,53 +18,74 @@
 
         .logo-container {
             text-align: center;
-            padding: 50px 20px;
+            padding: 60px 20px;
         }
 
         .logo-img {
-            max-width: 500px;
+            max-width: 400px;
             width: 80%;
         }
 
         .content {
-            width: 80%;
-            max-width: 800px;
-            padding: 40px;
-            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            margin-bottom: 30px;
+            width: 85%;
+            max-width: 900px;
+            padding: 50px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin-bottom: 40px;
         }
 
         .content h1 {
-            color: #ffc107; /* Gold accent color */
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: #2c3e50; /* Dark blue for headings */
+            margin-bottom: 25px;
+            font-size: 2.5em;
+            font-weight: 600;
         }
 
         .content p {
-            font-size: 1.1em;
-            line-height: 1.6;
+            font-size: 1.15em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .content ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 30px;
+        }
+
+        .content li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .content li::before {
+            content: '?';
+            position: absolute;
+            left: 0;
+            color: #27ae60; /* Green checkmark */
         }
 
         .menu {
-            margin-top: 30px;
+            margin-top: 40px;
+            text-align: center;
         }
 
         .menu a {
             text-decoration: none;
-            background-color: #ffc107; /* Gold accent color */
-            color: #001f3f; /* Dark blue text */
-            padding: 12px 25px;
+            background-color: #3498db; /* Blue button */
+            color: white;
+            padding: 15px 30px;
             border-radius: 8px;
-            margin: 0 15px;
-            font-weight: bold;
+            font-weight: 500;
             transition: background-color 0.3s ease;
         }
 
         .menu a:hover {
-            background-color: #ffeb3b; /* Lighter gold on hover */
+            background-color: #2980b9; /* Darker blue on hover */
         }
     </style>
 </head>
@@ -74,16 +95,17 @@
     </div>
 
     <div class="content">
-        <h1>Unlock Your Trading Potential with SwingX</h1>
-        <p>Experience the thrill of share trading with our cutting-edge platform. SwingX provides you with real-time data, advanced analytics, and expert insights to make informed decisions.</p>
-        <p>Whether you're a beginner or a seasoned trader, our intuitive interface and powerful tools will help you navigate the markets with confidence. Join SwingX today and take your trading to the next level!</p>
+        <h1>Trade Smarter with SwingX</h1>
+        <p>SwingX is designed to empower traders with advanced tools and insightful resources. Our platform provides a seamless trading experience, helping you make informed decisions and achieve your financial goals.</p>
+        <p>We believe in transparency and accessibility. Whether you are a beginner or an experienced trader, SwingX offers the support and technology you need to navigate the markets successfully.</p>
 
         <h2>Key Features</h2>
         <ul>
-            <li>Live Market Data</li>
-            <li>Advanced Charting Tools</li>
-            <li>AI-Powered Analysis</li>
-            <li>Personalized Trading Strategies</li>
+            <li>Advanced Market Analysis Tools</li>
+            <li>Real-Time Data Streams</li>
+            <li>Customizable Trading Dashboards</li>
+            <li>Educational Resources and Webinars</li>
+            <li>Dedicated Customer Support</li>
         </ul>
     </div>
 
